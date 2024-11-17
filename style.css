@@ -17,9 +17,29 @@
     object-position: top;
 }
 
+.row{
+    align-content: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
 @media only screen and (min-width: 576px) {
     .carousel-inner {
         height: 200px; 
+    }
+
+    h2{
+        text-align: left;
     }
 }
 
@@ -27,11 +47,20 @@
     .carousel-inner {
         height: 400px; 
     }
+
 }
 
 @media only screen and (min-width: 992px) {
     .carousel-inner {
         height:500px; 
+    }
+
+    h3{
+        text-align: left;
+    }
+    
+    h4{
+        text-align: left;
     }
 }
 
