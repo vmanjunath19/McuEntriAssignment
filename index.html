@@ -129,10 +129,10 @@
             <h2>Movies</h2>
             <p>Marvel Studios releases its films in groups called "Phases".</p>
             <div class="container">
-                <h3>The Infinity Saga</h3>
+                <h3 class="pb-2">The Infinity Saga</h3>
                 <div class="container border-2 border-bottom mb-3" id="phaseone">
-                    <h4>Phase One</h4>
-                    <div class="row gap-3 pb-3">
+                    <h4 class="pb-2">Phase One</h4>
+                    <div class="row justify-content-center gap-3 pb-3">
                         <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
                             <img class="card-img-top" src="./photos/carousel/card posters/ironman.jpg" alt="Iron Man">
                             <div class="card-body">
@@ -223,8 +223,8 @@
 
                 </div>
                 <div class="container border-2 border-bottom mb-3" id="phasetwo">
-                    <h4>Phase Two</h4>
-                    <div class="row gap-3 pb-3">
+                    <h4 class="pb-2">Phase Two</h4>
+                    <div class="row justify-content-center gap-3 pb-3">
                         <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
                             <img class="card-img-top" src="./photos/carousel/card posters/ironman3.jpg"
                                 alt="Iron Man 3">
@@ -317,7 +317,7 @@
                 </div>
                 <div class="container border-2 border-bottom mb-3" id="phasethree">
                     <h4>Phase Three</h4>
-                    <div class="row gap-3 pb-3">
+                    <div class="row justify-content-center gap-3 pb-3">
                         <div class="card col-12 col-sm-6 col-md-4 col-lg-3" style="width: 18rem;">
                             <img class="card-img-top" src="./photos/carousel/card posters/captainamerica3.jpg"
                                 alt="Captain America: Civil War">
@@ -488,38 +488,68 @@
                 </div>
             </div>
 
-            <!--Modal-->
-            <div class="modal fade" id="spiderman2imdb" tabindex="-1" role="dialog" aria-labelledby="ironmanImdbTitle"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Launch Imdb</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            Do you want to open IMDB page for this movie?
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a href="https://www.imdb.com/title/tt6320628/" target="_blank" class="btn btn-primary"
-                                style="background-color: #e2ef2c; color:black">Open Imdb</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
     </main>
-    <footer id="footer" class="bg-dark text-center text-lg-start text-white">
-        <div class="text-center p-3" style="background-color: #900202;">
+    <footer id="footer" class="bg-dark text-center text-lg-start text-white justify-content-center gap-3">
+        <div style="background-color: #900202;" class="row border-bottom">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <h5 class="pb-4">SHOP</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#">All</a></li>
+                    <li class="list-group-item"><a href="#">Tickets</a></li>
+                    <li class="list-group-item"><a href="#">Comics</a></li>
+                    <li class="list-group-item"><a href="#">Goodies</a></li>
+                    <li class="list-group-item"><a href="#">T-Shirts</a></li>
+                    <li class="list-group-item"><a href="#">Toys</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <h5 class="pb-4">CUSTOMERS</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#">Start A Return</a></li>
+                    <li class="list-group-item"><a href="#">Return Policy</a></li>
+                    <li class="list-group-item"><a href="#">FAQ</a></li>
+                    <li class="list-group-item"><a href="#">Catalogs And Mailers</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+                <h5 class="pb-4">COMPANY</h5>
+                <li class="list-group-item"><a href="#">About Us</a></li>
+                <li class="list-group-item"><a href="#">Sustainability</a></li>
+                <li class="list-group-item"><a href="#">Careers</a></li>
+                <li class="list-group-item"><a href="#">Privacy Policy</a></li>
+                <li class="list-group-item"><a href="#">Terms</a></li>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: #900202;color: beige;">
             © 2024 Copyright:
             <a class="text-white" href="https://www.marvel.com/" target="_blank">Marvel</a>
         </div>
     </footer>
+    <!--Modal-->
+    <div class="modal fade" id="spiderman2imdb" tabindex="-1" role="dialog" aria-labelledby="ironmanImdbTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Launch Imdb</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Do you want to open IMDB page for this movie?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a href="https://www.imdb.com/title/tt6320628/" target="_blank" class="btn btn-primary"
+                        style="background-color: #e2ef2c; color:black">Open Imdb</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    </div>
     <!--Modal-->
     <div class="modal fade" id="avengers4imdb" tabindex="-1" role="dialog" aria-labelledby="ironmanImdbTitle"
         aria-hidden="true">
